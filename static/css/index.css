@@ -83,6 +83,10 @@ nav {
     display: grid;
     grid-template-columns: 200px 1fr 45px;
 }
+nav figure {
+    display: flex;
+    align-items: center;
+}
 
 #logo {
     height: 53px;
@@ -115,6 +119,9 @@ nav ul li a {
     text-align: center;
     align-items: center;
 }
+.donate-here p {
+    line-height: 25px;
+}
 .donate-here img {
     width: 37px;
 }
@@ -133,11 +140,25 @@ nav ul li a {
     padding: 0;
 }
 .hero-wrapper {
-    background-image: url("../images/pag1/hero-background.jpg");
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)), url("../images/pag1/main-hero-img.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+
+}
+.hero-wrapper h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 90px;
+    text-align: left;
+    position: absolute;
+    top: 200px;
+    left: 33px;
+    line-height: 99px;
 }
 /* HERO END */
