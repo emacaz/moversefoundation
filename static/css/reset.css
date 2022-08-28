@@ -1,0 +1,137 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+    */
+
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, input, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center, input,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video, *{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        box-sizing: border-box;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section, div {
+        display: block;
+        width: 100%;
+    }
+    body {
+        line-height: 1;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    blockquote, q {
+        quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+
+    /* Default styles */ 
+
+    head,
+footer,
+body {
+    font-family: 'lato', sans-serif;
+    font-weight: 380;
+}
+body {
+    height: 100vh;
+    background-color: var(--background-gray);
+}
+
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8px;
+    min-width: 306px;
+    max-width: 1600px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+:root{
+    /* Colors*/
+    --just-white: #ffffff;
+    --just-red: #ff4842;
+    --font-white: #ffffff;
+    --font-gray: #5A5A5A;
+    --font-darkblue: #0B036B;
+    --just-black: #000000;
+    --main-blue: #3598db;
+    --background-purple: #6F3DFF;
+    --purple-80percent: #7C4EFF80;
+    --background-gray: #E5E5E5;
+    --black-font: #1A1A1A;
+
+    /*Measures*/
+    --border-radius-button: 8px;
+    --very-small-font-size: 10px;
+    --small-font-size: 14px;
+    --regular-font-size: 18px;
+    --subtitles-font-size: 28px;
+    --main-title-size: 36px;
+    --very-large-font-size: 40px;
+}
+
+.hide {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .hide-mobile{
+        display: none;
+    }
+    .hide-desktop{
+        display: flex;
+    }   
+}
+@media (min-width: 800px) {
+    .hide-mobile{
+        display: flex;
+    }
+    .hide-desktop{
+        display: none;
+    }
+}
