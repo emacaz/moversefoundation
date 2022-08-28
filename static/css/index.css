@@ -10,6 +10,10 @@ body {
     position: relative;
 }
 
+section {
+    margin: auto;
+}
+
 
 
 
@@ -122,9 +126,15 @@ nav ul li a {
 
 
 /* HERO */
+.hero-section {
+    padding: 0;
+}
 .hero-wrapper {
     background-image: url("../images/pag1/hero-background.jpg");
+    background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
+    background-size: cover;
+    height: 100vh;
+
 }
 /* HERO END */
