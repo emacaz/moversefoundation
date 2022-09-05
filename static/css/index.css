@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
-
+img {
+    width: unset;
+}
 body {
     background-color: white;
     font-family: 'IBM Plex Mono', monospace;
@@ -213,6 +215,11 @@ nav ul li a {
 .pilares-content img {
     width: 46px;
 }
+.pilar-item {
+    display: grid;
+    place-items: center;
+    color: white;
+}
 .pilar-item:nth-child(2) img {
     transform: rotate(-45deg);
 }
@@ -224,6 +231,7 @@ nav ul li a {
     letter-spacing: 0.14em;
     text-align: center;
     text-transform: uppercase;
+    margin: 2rem auto;
 }
 .pilar-description {
     font-style: normal;
