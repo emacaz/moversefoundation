@@ -292,12 +292,20 @@ nav ul li a {
     margin-bottom: 4rem;
 }
 .bepart-wrapper {
-    display: flex;
+    display: grid;
+    gap: 10px;
+    padding: 0 88px;
+    grid-template-columns: repeat(auto-fill, 611px);
+    /* grid-template-rows: repeat(auto-fill, 315px); */
 }
 
-
+.bepart-image-container {
+    width: 100%;
+}
 .bepart-image-container img {
-    width: 400px;
+    max-width: 592px;
+    height: auto;
+    object-fit: cover;
     box-shadow: 8px 9px 11px 6px rgba(0, 0, 0, 0.25);
 }
 
@@ -306,6 +314,7 @@ nav ul li a {
     background: rgba(236, 240, 241, 0.89);
     display: grid;
     justify-content: center;
+    padding: 20px 0;
 }
 .bepart-content h1 {
     font-style: normal;
@@ -313,17 +322,35 @@ nav ul li a {
     font-size: 50px;
     line-height: 65px;
     text-align: center;
-    text-transform: uppercase
+    text-transform: uppercase;
+    margin-bottom: 10px;
 }
+
 .bepart-content img {
     display: block;
     margin: auto;
+    width: 75px;
 }
 
 
 .bepart-content-hand-heart {
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
+}
+
+.bepart-content-hand-heart img {
+    width: 63px;
+}
+.bepart-content-hand-heart img:first-child {
+    background: #F6E58D;
+    border-radius: 50%;
+    padding: 10px;
+}
+.bepart-content-hand-heart img:nth-child(2) {
+    background: #C7ECEE;
+    border-radius: 50%;
+    padding: 10px;
 }
 
 .bepart-content a {
