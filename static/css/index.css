@@ -88,6 +88,7 @@ nav {
 nav figure {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 #logo {
@@ -175,23 +176,30 @@ nav ul li a {
 /* PILARES */
 .pilares-section {
     padding: 0;
+    margin-bottom: 4rem;
 }
 .pilares-wrapper {
     display: grid;
     align-items: center;
-    padding: 0;
+    padding: 0 90px;
 }
 .pilares-wrapper figure {
     margin-top: 210px;
+    margin-bottom: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .pilares-wrapper figure img:last-child {
     width: 13px;
+    margin-top: 25px;
 }
 .pilares-container {
     background-color: #0E1820;
     display: grid;
     place-content: center;
     padding-bottom: 3rem;
+    box-shadow: 8px 9px 11px 6px rgb(0 0 0 / 25%);
 }
 #pilares-title {
     margin: 30px auto;
@@ -206,7 +214,7 @@ nav ul li a {
 
 .pilares-content {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 22px;
     grid-template-columns: repeat(auto-fill,280px);
     /* grid-template-rows: repeat(auto-fill,276px); */
     max-width: 1189px;
@@ -266,3 +274,98 @@ nav ul li a {
 }
 
 /* PILARES END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BEPART */
+.bepart-section {
+    margin-bottom: 4rem;
+}
+.bepart-wrapper {
+    display: flex;
+}
+
+
+.bepart-image-container img {
+    width: 400px;
+    box-shadow: 8px 9px 11px 6px rgba(0, 0, 0, 0.25);
+}
+
+.bepart-content {
+    box-shadow: 8px 9px 11px 6px rgba(0, 0, 0, 0.25);
+    background: rgba(236, 240, 241, 0.89);
+    display: grid;
+    justify-content: center;
+}
+.bepart-content h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 65px;
+    text-align: center;
+    text-transform: uppercase
+}
+.bepart-content img {
+    display: block;
+    margin: auto;
+}
+
+
+.bepart-content-hand-heart {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bepart-content a {
+    display: block;
+    text-align: center;
+    background: #DD6C6C;
+    border-radius: 25px;
+    padding: 10px 0px;
+    width: 90px;
+    text-transform: uppercase;
+    color: white;
+}
+/* BEPART END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+footer {
+    background-color: #0E1820;
+    min-height: 70px;
+}
+
+.footer-wrapper {
+    padding: 10px;
+    padding-bottom: 0;
+}
+footer figure {
+    margin: 7px;
+}
+/* FOOTER END */
