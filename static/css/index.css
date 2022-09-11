@@ -161,6 +161,16 @@ nav ul li a {
     left: 33px;
     line-height: 99px;
 }
+.hero-wrapper a {
+    color: black;
+    text-transform: uppercase;
+    padding: 10px 16px;
+    border-radius: 39px;
+    background: white;
+    position: absolute;
+    top: 500px;
+    left: 33px;
+}
 
 /* HERO END */
 
