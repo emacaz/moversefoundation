@@ -153,11 +153,12 @@ nav ul li a {
     padding: 0;
 }
 .hero-wrapper {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)), url("../images/pag1/main-hero-img.webp");
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)), url("../images/pag1/main-hero-img.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    max-height: 892px;
 
     display: flex;
     /* align-items: center;
@@ -570,6 +571,30 @@ footer figure {
 
 
     /* HERO */
+    .hero-wrapper {
+        display: grid;
+        align-content: flex-start;
+        height: 390px;
+        padding-top: 4rem;
+    }
+    .hero-wrapper h1 {
+        position: relative;
+        font-size: 50px;
+        line-height: 60px;
+        text-align: center;
+        left: unset;
+        top: unset;
+    }
+    .hero-wrapper a {
+        position: relative;
+        display: block;
+        margin: auto;
+        left: unset;
+        top: unset;
+        text-align: center;
+        padding: 10px;
+        width: 120px;
+    }
     /* HERO END */
 
 
