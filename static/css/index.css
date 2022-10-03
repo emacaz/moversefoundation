@@ -437,15 +437,14 @@ nav ul li a {
 .wedo-content h1 {
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
-    line-height: 65px;
+    font-size: 34px;
     text-align: center;
     text-transform: uppercase;
 }
 
 .wedo-content img {
     display: block;
-    width: 90px;
+    width: 70px;
     height: auto;
     margin-right: 10px;
 }
@@ -474,6 +473,21 @@ nav ul li a {
     text-transform: uppercase;
     color: white;
 }
+
+
+.wedo-content-img-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.wedo-content-img-items img {
+    width: 25px;
+}
+
+.wedo-content-img-items p {
+    text-transform: uppercase;
+}
 /* WEDO END */
 
 
@@ -499,12 +513,12 @@ footer {
     min-height: 70px;
 }
 
-.footer-wrapper {
-    padding: 10px;
-    padding-bottom: 0;
+.footer-wrapper figure {
+    margin: auto;
+    padding: 30px 10px;
 }
-footer figure {
-    margin: 7px;
+.footer-wrapper figure img {
+    width: 200px;
 }
 /* FOOTER END */
 
@@ -681,6 +695,10 @@ footer figure {
     .bepart-image-container img {
         width: 100%;
     }
+
+    .wedo-section {
+        margin-bottom: 0;
+    }
     /* WEDO END */
 
 
@@ -690,5 +708,9 @@ footer figure {
 
 
     /* FOOTER */
+    
+    .footer-wrapper figure img {
+        width: 160px;
+    }
     /* FOOTER END */
 }
