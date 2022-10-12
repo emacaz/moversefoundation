@@ -142,6 +142,57 @@ nav ul li a {
 
 
 
+
+/* HERO SECTION */
+/* HERO SECTION END */
+
+
+/* GOAHEAD SECTION */
+/* GOAHEAD SECTION END */
+
+
+/* ACTION SECTION */
+/* ACTION SECTION END */
+
+
+/* CHRISTMAS SECTION */
+/* CHRISTMAS SECTION END */
+
+
+/* NOLIMITS SECTION */
+/* NOLIMITS SECTION END */
+
+
+/* SHARELUNCH SECTION */
+/* SHARELUNCH SECTION END */
+
+
+/* VIDEO SECTION */
+/* VIDEO SECTION END */
+
+
+/* FOOTER */
+/* FOOTER END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:860px){
     /* HEADER */
     .social-media {
@@ -197,3 +248,38 @@ nav ul li a {
         padding: 6px 0;
     }
     /* HEADER END */
+
+
+    /* HERO SECTION */
+    /* HERO SECTION END */
+
+
+    /* GOAHEAD SECTION */
+    /* GOAHEAD SECTION END */
+
+
+    /* ACTION SECTION */
+    /* ACTION SECTION END */
+
+
+    /* CHRISTMAS SECTION */
+    /* CHRISTMAS SECTION END */
+
+
+    /* NOLIMITS SECTION */
+    /* NOLIMITS SECTION END */
+
+
+    /* SHARELUNCH SECTION */
+    /* SHARELUNCH SECTION END */
+
+
+    /* VIDEO SECTION */
+    /* VIDEO SECTION END */
+
+
+    /* FOOTER */
+    /* FOOTER END */
+
+
+}
