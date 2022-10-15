@@ -142,6 +142,25 @@ nav ul li a {
 
 
 
+
+/* HERO SECTION */
+.hero-wrapper {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)), url("../images/donate-hero-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-height: 892px;
+}
+/* HERO SECTION */
+
+
+
+
+
+
+
+
 @media (max-width:860px){
     /* HEADER */
     .social-media {
@@ -197,3 +216,4 @@ nav ul li a {
         padding: 6px 0;
     }
     /* HEADER END */
+}
