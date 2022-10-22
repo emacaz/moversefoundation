@@ -142,6 +142,163 @@ nav ul li a {
 
 
 
+/* HERO SECTION */
+.hero-section {
+    padding: 0;
+}
+.hero-wrapper {
+    background: url("../images/joinus-hero-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 653px;
+    max-height: 892px;
+    display: flex;
+}
+
+.hero-container {
+    margin: auto;
+}
+/* .hero-img {
+    -webkit-box-shadow: 5px 5px 49px 5px #000000; 
+    box-shadow: 5px 5px 49px 5px #000000;
+} */
+.hero-img h1 {
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 99px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    max-width: 480.33px;
+    text-shadow: 11px 5px 14px #000000;
+}
+/* HERO SECTION END */
+
+
+
+
+
+
+
+/* DONATE TIME SECTION */
+.donate-time-section {
+    margin: 4rem auto;
+}
+.donate-time-wrapper {
+    max-width: 1161px;
+}
+
+.donate-time-container {
+    display: flex;
+    align-items: end;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.logo-container img:first-child {
+    width: 252px;
+}
+
+.logo-container img:last-child {
+    width: 10px;
+    margin-top: 1rem;
+}
+
+.donate-time-img {
+    width: auto;
+    box-shadow: 17px 19px 10px #c5c5c5;
+}
+
+.donate-time-description-container {
+    background: #636E72;
+    box-shadow: 17px 19px 10px #c5c5c5;
+    height: 488px;
+}
+
+.donate-your-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.donate-your-time h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 65px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.donate-your-time img {
+    width: 42px;
+    margin: 0 3rem;
+}
+
+.donate-your-time-items-container {
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.donate-your-time-item {
+    position: relative;
+    color: #fff;
+    padding: 1rem;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.donate-your-time-item p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: justify;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.donate-your-time-item img {
+    width: 45px;
+    margin-bottom: 22px;
+    height: 51px;
+}
+#id_glowing_star {
+    position: absolute;
+    top: 0;
+    right: 89px;
+    height: auto;
+}
+
+/* DONATE TIME SECTION END */
+
+
+
+/* FRIEND SECTION */
+/* FRIEND SECTION END */
+
+
+
+/* GODFATHER SECTION */
+/* GODFATHER SECTION END */
+
+
+
+/* FOOTER */
+/* FOOTER END */
+
+
+
+
+
+
+
 @media (max-width:860px){
     /* HEADER */
     .social-media {
@@ -197,4 +354,30 @@ nav ul li a {
         padding: 6px 0;
     }
     /* HEADER END */
+
+
+
+
+    /* HERO SECTION */
+    /* HERO SECTION END */
+
+
+
+    /* DONATE TIME SECTION */
+    /* DONATE TIME SECTION END */
+
+
+
+    /* FRIEND SECTION */
+    /* FRIEND SECTION END */
+
+
+
+    /* GODFATHER SECTION */
+    /* GODFATHER SECTION END */
+
+
+
+    /* FOOTER */
+    /* FOOTER END */
 }
