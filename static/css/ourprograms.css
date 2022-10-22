@@ -317,11 +317,141 @@ nav ul li a {
 /* ACTION SECTION END */
 
 
+
+
+
+
+
 /* CHRISTMAS SECTION */
+.christmas-section {
+    margin: 4rem auto;
+}
+.christmas-wrapper {
+    max-width: 1161px;
+}
+
+.christmas-container {
+    display: flex;
+    box-shadow: 17px 19px 10px #c5c5c5;
+    background: #636E72;
+}
+
+.christmas-container figure {
+    width: unset;
+}
+
+.christmas-about-container {
+    padding: 0 52px;
+    padding-top: 3rem;
+}
+
+.christmas-title {
+    display: flex;
+    margin-bottom: 1rem;
+}
+.christmas-title img {
+    width: 50px;
+    margin-top: 13px;
+}
+.christmas-title h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 65px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.christmas-description p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: justify;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.christmas-description p:first-child {
+    margin-bottom: 10px;
+}
+
+.christmas-location {
+    margin-top: 2rem;
+}
+.christmas-location p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: justify;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #000000;
+}
 /* CHRISTMAS SECTION END */
 
 
+
+
+
+
+
+
+
 /* NOLIMITS SECTION */
+.nolimits-section {
+    margin: 4rem auto;
+}
+.nolimits-wrapper {
+    max-width: 1161px;
+}
+
+.nolimits-img-description {
+    display: flex;
+    box-shadow: 17px 19px 10px rgba(43, 59, 71, 0.25);
+}
+.nolimits-img-description figure img {
+    width: 100%;
+}
+
+
+.nolimits-description {
+    padding-top: 2rem;
+    background: rgba(236, 240, 241, 0.89);
+    /* filter: blur(2px); */
+}
+.nolimits-description h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 65px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #13192E;
+    margin-bottom: 2rem;
+}
+.nolimits-description p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: justify;
+    text-transform: uppercase;
+    color: #000000;
+    max-width: 335px;
+    margin: auto;
+}
+
+.nolimits-about {
+    margin-top: 2rem;
+}
+.nolimits-about p {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: justify;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+
+
 /* NOLIMITS SECTION END */
 
 
