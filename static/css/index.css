@@ -119,6 +119,7 @@ nav ul li:last-child {
     width: 100px;
     background-color: #13192E;
     padding: 10px 0;
+    height: 100%;
 }
 nav ul li {
     padding: 10px 15px;
