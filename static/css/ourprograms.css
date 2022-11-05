@@ -110,6 +110,7 @@ nav ul {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    height: 100%;
 }
 nav ul li:last-child {
     width: 100px;
@@ -119,6 +120,7 @@ nav ul li:last-child {
 }
 nav ul li {
     padding: 10px 15px;
+    height: 100%;
 }
 
 nav ul li a {
