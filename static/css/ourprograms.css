@@ -186,7 +186,7 @@ nav ul li a {
 /* GOAHEAD SECTION */
 .goahead-wrapper {
     max-width: 1161px;
-    padding: 0;
+    padding: 0 1em;
 }
 .goahead-container {
     display: flex;
@@ -278,13 +278,13 @@ nav ul li a {
 }
 .action-wrapper {
     max-width: 1161px;
-    background-color: #000;
     color: white;
-    box-shadow: 17px 19px 10px #C5C5C5;
 }
 
 .action-container {
     padding: 4rem;
+    background-color: #000;
+    box-shadow: 17px 19px 10px #C5C5C5;
 }
 
 
@@ -340,18 +340,21 @@ nav ul li a {
 }
 
 .christmas-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 414px auto;
     box-shadow: 17px 19px 10px #c5c5c5;
     background: #636E72;
 }
 
 .christmas-container figure {
-    width: unset;
+    width: 100%;
+}
+.christmas-container figure img {
+    width: 100%;
 }
 
 .christmas-about-container {
-    padding: 0 52px;
-    padding-top: 3rem;
+    padding: 3rem 52px 20px 52px;
 }
 
 .christmas-title {
@@ -476,11 +479,15 @@ nav ul li a {
 
 
 .sharelunch-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 280px 280px auto;
     box-shadow: 17px 19px 10px rgba(43, 59, 71, 0.25);
 }
 .sharelunch-container figure {
-    width: unset;
+    width: 100%;
+}
+.sharelunch-container figure img {
+    width: 100%;
 }
 
 
@@ -645,31 +652,176 @@ footer img {
     /* HEADER END */
 
 
+
+
+
     /* HERO SECTION */
+    .hero-container {
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 3rem;
+    }
+    .hero-container p {
+        margin: 5px;
+        font-size: 30px;
+    }
+    .hero-container p:first-child {
+        margin: 5px;
+    }
     /* HERO SECTION END */
 
 
+
+
+
     /* GOAHEAD SECTION */
+    .goahead-wrapper {
+        padding: 0 1em;
+    }
+    .img-goahead-description-container {
+        flex-direction: column-reverse;
+    }
+
+    .goahead-description-container {
+        padding: 20px;
+        margin-bottom: 2rem;
+    }
+
+    .img-goahead-description-container figure {
+        margin: auto;
+    }
+    .phones-goahead {
+        margin-bottom: 1rem;
+    }
+    .phones-goahead h1 {
+        font-size: 35px;
+        line-height: 38px;
+    }
     /* GOAHEAD SECTION END */
 
 
+
+
+
     /* ACTION SECTION */
+    .action-wrapper {
+        padding: 0 1em;
+    }
+    .action-section {
+        margin: 3rem auto;
+    }
+    .action-container {
+        padding: 15px;
+    }
+    .action-title-container {
+        margin-bottom: 1rem;
+    }
+    .action-title-container h1 {
+        font-size: 22px;
+    }
     /* ACTION SECTION END */
 
 
+
+
+
     /* CHRISTMAS SECTION */
+    .christmas-wrapper {
+        padding: 0 1em;
+    }
+    .christmas-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .christmas-about-container {
+        padding: 15px;
+    }
+
+    .christmas-title {
+        align-items: center;
+        justify-content: center;
+    }
+    .christmas-title h1 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .christmas-description p {
+        font-size: 14px;
+        line-height: 16px;
+    }
     /* CHRISTMAS SECTION END */
 
 
+
+
+
     /* NOLIMITS SECTION */
+    .nolimits-description {
+        padding: 15px;
+    }
+    .nolimits-description h1 {
+        font-size: 35px;
+        margin-bottom: 5px;
+    }
+    .nolimits-img-description {
+        flex-direction: column-reverse;
+    }
+
+    .nolimits-description p {
+        max-width: unset;
+    }
     /* NOLIMITS SECTION END */
 
 
+
+
+
+
     /* SHARELUNCH SECTION */
+    .sharelunch-section {
+        margin-bottom: 2rem;
+    }
+    .sharelunch-container {
+        grid-template-columns: auto auto;
+    }
+
+    .sharelunch-description {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+    }
+    .sharelunch-description h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .sharelunch-description p {
+        max-width: unset;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
     /* SHARELUNCH SECTION END */
 
 
+
+
+
+
     /* VIDEO SECTION */
+    .video-section {
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+    .video-wrapper iframe {
+        width: 100%;
+        height: 300px;
+    }
+    .video-container {
+        padding: 15px;
+    }
+    .video-container h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
     /* VIDEO SECTION END */
 
 
