@@ -231,14 +231,12 @@ nav ul li a {
     grid-template-columns: 50% 50%;
     max-width: 1189px;
     margin: 4rem auto;
-    height: 620px;
     box-shadow: 17px 19px 10px #C5C5C5;
     background: #0E1820;
 }
 
 .beginnings-item img {
     width: 100%;
-    height: auto;
 }
 
 .beginnings-item h1 {
@@ -438,7 +436,13 @@ footer {
 
 
 
+
+
     /* HERO SECTION */
+    .hero-container h1 {
+        font-size: 34px;
+        line-height: 50px;
+    }
     /* HERO SECTION END */
 
 
@@ -448,6 +452,17 @@ footer {
 
 
     /* OURHISTORY SECTION */
+    .ourhistory-container {
+        height: auto;
+        display: block;
+    }
+    .ourhistory-item {
+        padding: 0;
+    }
+    .ourhistory-item p {
+        margin-bottom: 20px;
+        text-align: justify;
+    }
     /* OURHISTORY SECTION END */
 
 
@@ -457,6 +472,14 @@ footer {
 
 
     /* BEGINNINGS SECTION */
+    .beginnings-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .beginning-second-item {
+        padding: 20px;
+    }
     /* BEGINNINGS SECTION END */
 
 
@@ -467,6 +490,17 @@ footer {
 
 
     /* VISION SESCTION */
+    .vision-container {
+        display: block;
+        height: auto;
+    }
+    .mision-item {
+        margin-bottom: 2rem;
+    }
+    .vision-item {
+        margin-left: 0 !important;
+        padding: 15px;
+    }
     /* VISION SESCTION END */
 
 
