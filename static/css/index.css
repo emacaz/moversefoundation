@@ -116,6 +116,9 @@ nav ul {
     justify-content: flex-end;
     align-items: center;
 }
+nav ul li:first-child {
+    text-decoration: underline;
+}
 nav ul li:last-child {
     width: 100px;
     background-color: #13192E;
@@ -124,6 +127,10 @@ nav ul li:last-child {
 }
 nav ul li {
     padding: 10px 15px;
+    text-align: center;
+}
+nav ul li:hover {
+    text-decoration: underline;
 }
 
 nav ul li a {

@@ -117,9 +117,14 @@ nav ul li:last-child {
     background-color: #13192E;
     padding: 10px 0;
     height: 100%;
+    text-decoration: underline;
 }
 nav ul li {
     padding: 10px 15px;
+    text-align: center;
+}
+nav ul li:hover {
+    text-decoration: underline;
 }
 
 nav ul li a {
