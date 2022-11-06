@@ -72,30 +72,31 @@
                         <div class="name-phone-containers">
                             <div class="name-container">
                                 <label for="id_name">Nombre:</label>
-                                <input type="name" id="id_name">
+                                <input type="name" id="id_name" placeholder="Nombre">
                             </div>
                             <div class="phone-container">
                                 <label for="id_phone">Teléfono:</label>
-                                <input type="text" id="id_phone">
+                                <input type="text" id="id_phone" placeholder="Teléfono">
                             </div>
                         </div>
     
-                        <div class="mail-amount-containers">
+                        <div class="email-amount-containers">
                             <div class="email-container">
                                 <label for="id_email">Correo:</label>
-                                <input type="email" name="email" id="id_email">
+                                <input type="email" name="email" id="id_email" placeholder="Correo">
                             </div>
                             <div class="amount-container">
-                                <label for="id_amount">Cantidad</label>
-                                <input type="number" name="amount" id="id_amount">
+                                <label for="id_amount">Cantidad: $</label>
+                                <input type="number" name="amount" id="id_amount" placeholder="0">
                             </div>
                         </div>
                     </div>
+
                     <div class="payment-way-container">
-                        <input type="checkbox" name="annual" id="annual">
+                        <input type="radio" name="annual" id="annual">
                         <label for="annual">Anual</label>
 
-                        <input type="checkbox" name="monthly" id="monthly">
+                        <input type="radio" name="monthly" id="monthly">
                         <label for="monthly">Mensual</label>
 
                         <p>Forma de pago</p>
