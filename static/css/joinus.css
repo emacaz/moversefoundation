@@ -93,6 +93,7 @@ nav {
     max-width: 1440px;
     display: grid;
     grid-template-columns: 200px 1fr 45px;
+    height: 75px;
 }
 nav figure {
     display: flex;
@@ -110,7 +111,6 @@ nav ul {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 100%;
 }
 nav ul li:last-child {
     width: 100px;
@@ -120,7 +120,6 @@ nav ul li:last-child {
 }
 nav ul li {
     padding: 10px 15px;
-    height: 100%;
 }
 
 nav ul li a {
