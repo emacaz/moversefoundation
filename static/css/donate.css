@@ -193,6 +193,24 @@ nav ul li a {
     height: 100vh;
     max-height: 892px;
 }
+
+
+.form-donate-container form {
+    background-color: white;
+}
+
+
+.form-title {
+    background: #0E1820;
+    color: #fff;
+}
+
+
+.payment-way-container {
+    background: #0E1820;
+    color: #ffffff;
+    display: flex;
+}
 /* FORM-DONATE-SECTION END */
 
 
