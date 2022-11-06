@@ -159,8 +159,8 @@ nav ul li a {
     background: url("../images/joinus-hero-img.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 653px;
+    background-size: cover;
+    height: 100vh;
     max-height: 892px;
     display: flex;
 }
@@ -199,7 +199,8 @@ nav ul li a {
 }
 
 .donate-time-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 411px auto;
     align-items: end;
 }
 
@@ -220,14 +221,13 @@ nav ul li a {
 }
 
 .donate-time-img {
-    width: auto;
+    /* width: auto; */
     box-shadow: 17px 19px 10px #c5c5c5;
 }
 
 .donate-time-description-container {
     background: #636E72;
     box-shadow: 17px 19px 10px #c5c5c5;
-    height: 488px;
 }
 
 .donate-your-time {
@@ -252,8 +252,6 @@ nav ul li a {
 
 .donate-your-time-items-container {
     display: flex;
-    padding-right: 20px;
-    padding-left: 20px;
 }
 
 .donate-your-time-item {
@@ -300,8 +298,8 @@ nav ul li a {
     background: url("../images/joinus-friend-img.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 653px;
+    background-size: cover;
+    height: 100vh;
     max-height: 892px;
     display: flex;
 }
@@ -407,10 +405,15 @@ nav ul li a {
 }
 
 .godfather-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 528px;
 }
 .godfather-img {
     position: relative;
+    width: 100%;
+}
+.godfather-img img {
+    width: 100%;
 }
 .godfather-img h1 {
     position: absolute;
@@ -548,22 +551,85 @@ footer img {
 
 
 
+
     /* HERO SECTION */
+    .hero-container {
+        margin: unset;
+    }
+    .hero-img {
+        margin-top: 3rem;
+    }
+    .hero-img h1 {
+        font-size: 50px;
+        line-height: 68px;
+    }
     /* HERO SECTION END */
 
 
 
+
+
+
     /* DONATE TIME SECTION */
+    .donate-time-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .donate-your-time-items-container {
+        display: block;
+    }
+
+    .donate-time-img {
+        text-align: center;
+    }
+    .donate-time-img img {
+        width: 100%;
+    }
+
+    .donate-your-time img {
+        margin: 15px;
+    }
+    .donate-your-time h1 {
+        font-size: 35px;
+        line-height: 35px;
+    }
     /* DONATE TIME SECTION END */
 
 
 
+
+
+
     /* FRIEND SECTION */
+    .friend-container {
+        padding: 25px;
+    }
+    .friend-container h1 {
+        font-size: 35px;
+    }
+    .support p {
+        font-size: 25px;
+    }
+    .friend-container p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .amounts-container {
+        display: grid;
+        grid-gap: 40px;
+        grid-template-columns: repeat(auto-fill,100px);
+    }
     /* FRIEND SECTION END */
 
 
 
+
+
     /* GODFATHER SECTION */
+    .godfather-container {
+        
+    }
     /* GODFATHER SECTION END */
 
 
