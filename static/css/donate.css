@@ -447,4 +447,47 @@ footer img {
         padding: 6px 0;
     }
     /* HEADER END */
+
+
+    /* HERO SECTION */
+    .hero-container h1 {
+        font-size: 40px;
+        line-height: 44px;
+        margin-left: 0;
+    }
+    /* HERO SECTION END */
+
+
+
+
+
+    /* DONATE FORM SECTION */
+    .form-donate-section {
+        margin-bottom: 3rem;
+    }
+    .name-phone-containers {
+        display: block;
+        margin-bottom: 0;
+    }
+    .name-phone-containers div {
+        margin-bottom: 2rem;
+    }
+
+    .email-amount-containers {
+        margin-top: 0;
+        display: block;
+    }
+    .email-amount-containers div {
+        margin-bottom: 2rem;
+    }
+
+    .transfer-data img {
+        width: 30px;
+        margin-right: 10px;
+    }
+    .transfer-data p:first-child {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    /* DONATE FORM SECTION END */
 }
