@@ -196,7 +196,6 @@ nav ul li a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
     max-height: 892px;
 }
 
@@ -462,9 +461,22 @@ footer img {
 
 
     /* DONATE FORM SECTION */
+    
     .form-donate-section {
         margin-bottom: 3rem;
     }
+    .form-donate-container {
+        padding-bottom: 2rem;
+    }
+
+    .form-title p {
+        font-size: 28px;
+    }
+
+    .data-container {
+        padding: 0;
+    }
+
     .name-phone-containers {
         display: block;
         margin-bottom: 0;
@@ -473,12 +485,34 @@ footer img {
         margin-bottom: 2rem;
     }
 
+    .name-phone-containers div, .email-amount-containers div {
+        margin: 0px auto 10px auto !important;
+        padding: 5px 11px;
+    }
+
     .email-amount-containers {
         margin-top: 0;
         display: block;
     }
     .email-amount-containers div {
         margin-bottom: 2rem;
+    }
+
+
+    .payment-way-container {
+        padding: 12px 8px;
+        font-size: 16px;
+    }
+    .payment-way-container label:nth-child(2) {
+        margin-right: 10px;
+    }
+    .payment-way-container input {
+        margin-right: 4px;
+    }
+    .payment-way-container p {
+        right: 12px;
+        font-size: 16px;
+        line-height: 18px;
     }
 
     .transfer-data img {
